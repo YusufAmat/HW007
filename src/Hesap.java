@@ -13,6 +13,6 @@ public class Hesap {
 
     @Override
     public String toString() {
-        return "Toplam Maliyet = " + getToplamMaliyet();
+        return String.format("Toplam Maliyet = %5.2f" , getToplamMaliyet());
     }
 }

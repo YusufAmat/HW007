@@ -20,6 +20,6 @@ public class Hali {
 
     @Override
     public String toString() {
-        return "Birim Fiyati = " + fiyat;
+        return String.format("Birim Fiyati = %5.2f" , fiyat);
     }
 }

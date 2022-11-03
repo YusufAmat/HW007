@@ -46,6 +46,6 @@ public class Zemin {
 
     @Override
     public String toString() {
-        return aciklama + " (" + genislik + " x " + uzunluk + ")";
+        return String.format("%s (%1.2f x %1.2f)",aciklama,uzunluk,genislik);
     }
 }
